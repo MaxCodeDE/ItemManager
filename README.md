@@ -1,4 +1,4 @@
-# Cnwitze
+# ItemManager
 
 Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche die Minecraft Items von einer Api als JSON bezieht und anzeigt. Desweiteren können diese mit einer Suchfunktion gefiltert werden.
 
