@@ -1,11 +1,10 @@
 # Cnwitze
 
-Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche ihre Witze von einer Api als JSON bezieht und anzeigt.
-
-Es können alle Witze, eine bestimmte Anzahl oder Zufällige Witze angezeigt werden.
+Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche die Minecraft Items von einer Api als JSON bezieht und anzeigt. Desweiteren können diese mit einer Suchfunktion gefiltert werden.
 
 Link zum Projekt:
-[Chuck Norris Witze Seite](http://server.max-bremer.info:8083/CNWitze/)
+ItemManager
+[ItemManager](http://server.max-bremer.info:8083/ItemManager/)
 
 ## Vorraussetzungen
 
