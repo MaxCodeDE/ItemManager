@@ -3,7 +3,6 @@
 Eins meiner ersten EmberJS Projekte. Eine Frontend-WebApp welche die Minecraft Items von einer Api als JSON bezieht und anzeigt. Desweiteren können diese mit einer Suchfunktion gefiltert werden.
 
 Link zum Projekt:
-ItemManager
 [ItemManager](http://server.max-bremer.info:8083/ItemManager/)
 
 ## Vorraussetzungen
