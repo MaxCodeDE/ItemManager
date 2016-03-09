@@ -1,0 +1,30 @@
+<!-- Framworks & Plugins -->
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> - Bereits vorhanden (Ember.$) -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+
+<nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand"> {{! Logo oderso? }} </a>
+        </div>
+
+        <div class="collapse navbar-collapse" style="margin-left: 45%;">
+            <ul class="nav navbar-nav">
+                <li> {{#link-to 'index'}} <i class="fa fa-home fa-lg"></i> Home {{/link-to}} </li>
+                <li> {{#link-to 'items'}} <i class="fa fa-archive fa-lg"></i> Items {{/link-to}} </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://max-bremer.info" target="_blank"> <i class="fa fa-code fa-lg"></i> </a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+<div class="container" id="main">
+ 			{{outlet}}
+</div>
+

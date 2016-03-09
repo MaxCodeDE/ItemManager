@@ -1,0 +1,33 @@
+<div id="items">
+
+    <div id="items-header">
+        <p> <h2> {{itemsText}} </h2> </p>
+    
+        <hr>
+    </div>
+    
+<div id="items-each" class="row">
+    {{#each items as |item|}}
+
+    <div id="item-box-huelle">
+            <div id="item-box" class="col-md-5 panel panel-default">
+
+            
+            <div class="col-md-2" style="margin-left: -5px;"> <img src="items/{{item.type}}-{{item.meta}}.png" width="65px" height="65px"> </div>
+            
+            <div class="col-md-9" style="margin-left: 10px;"> 
+                <i class="fa fa-tags fa-lg" /> <big>Name:</big> {{item.name}}
+                <br> 
+                <i class="fa fa-database fa-lg" /> <big>ID:</big> {{item.type}} <big>Meta:</big> {{item.meta}}  
+                <br>
+                <i class="fa fa-cubes fa-lg" /> <big>Blocktyp:</big> {{item.text_type}}
+            </div>
+
+            </div> 
+    </div>
+    
+    
+    {{/each}}
+</div>
+    
+</div>
