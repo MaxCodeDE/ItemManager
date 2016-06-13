@@ -10,7 +10,7 @@
 
 #item-box {
     border-color: white;
-    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    box-shadow: 0 0px 0px rgba(0,0,0,.05); /* Entfernt graue Lini unter einer item-box */
 }
 
 #item-box-huelle {
